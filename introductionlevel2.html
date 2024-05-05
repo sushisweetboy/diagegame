@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&family=Protest+Revolution&family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="level2.css">
+    <link rel="stylesheet" href="firstpage.css">
+    <link rel="stylesheet" href="firstpage.css">
+    <style>
+        .intro{
+            width: 100vw;
+            height: 30vh;
+            justify-content: center;
+            
+            margin-top: 15%;
+        }
+        h3{
+            text-align: center;
+             font-size: 1.5em;
+             
+             font-family: "Sriracha", cursive;
+             -webkit-text-stroke:0.1px #95f3ff;
+        }
+        .memory-game{
+            margin-top: 20%;
+           
+        }
+       
+        @media(min-width:320px)and (max-width:500px){
+            .intro{
+                margin-left: 9%;
+            }
+            .memory-game{
+            margin-left: 60%;
+
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="intro">
+        <h3>
+            เกมส์ต่อไปเป็นเกมส์ทดสอบความจำ ในกระดานมีไพ่ที่เหมือนกัน 2 ใบ จำนวนหลาย  6 คู่ รวม 12 ใบ คุณมีหน้าที่คุณต้องลองเปิดไพ่ดูเเล้วจำไพ่ให้ได้  
+            จากนั้นให้เปิดไพ่ใบแรกเเละใบที่สองให้ออกมาเป็นไพ่ใบเดียวกัน จะถือว่าเสร็จไป 1 คู่  ดังตัวอย่างด้านล่าง
+        </h3>
+    </div>
+    <section class="memory-game">
+        <div class="memory-card" data-framework="money">
+            <img class="frontface" src="monkey.webp" alt="money">
+            <img class="backface" src="questionmark.jpg" alt="questionmark">
+          </div>
+      
+          <div class="memory-card" data-framework="dinosaur">
+            <img class="frontface" src="dinosaur-found-china.jpg" alt="dinosaur">
+            <img class="backface" src="questionmark.jpg" alt="questionmark">
+            
+          </div>
+      
+          <div class="memory-card" data-framework="money">
+            <img class="frontface" src="monkey.webp" alt="money">
+            <img class="backface" src="questionmark.jpg" alt="questionmark">
+          </div>
+      
+          <div class="memory-card" data-framework="dinosaur">
+            <img class="frontface" src="dinosaur-found-china.jpg" alt="dinosaur">
+            <img class="backface" src="questionmark.jpg" alt="questionmark">
+          </div>
+          
+         
+   
+         
+    </section>
+
+    
+    
+       
+</body>
+</html>

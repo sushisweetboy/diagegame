@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the container fill the whole viewport height */
+    
+    padding-bottom: 300px;
+}
+
+.letter {
+    font-size: 48px; /* Adjust the font size as needed */
+    opacity: 0; /* Initially, the letter will be invisible */
+    animation: pop-up 2s ease forwards; /* Apply the animation */
+    color: aliceblue;
+    padding-bottom: 300px;
+    padding-left: 40px;
+}
+
+@keyframes pop-up {
+    0% {
+        opacity: 0; /* Start with opacity 0 */
+        transform: scale(0.5); /* Start with a smaller scale */
+    }
+    100% {
+        opacity: 1; /* End with opacity 1 */
+        transform: scale(1); /* End with full scale */
+    }
+}
+body{
+    background-color: black;
+}

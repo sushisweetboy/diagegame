@@ -1,0 +1,86 @@
+.text-container{
+    justify-content: center;
+     margin-top: 17%;
+}
+h1{
+
+    text-align: center;
+    color: #95f3ff;
+     text-shadow: 0 0 30px #95f3ff;
+}
+h2{
+    color: #fff;
+    font-weight: 900;
+}
+p{
+    text-align: center;
+     font-weight: 400%;
+     font-size: 1em;
+     display: inline;
+     color: aliceblue;
+     text-shadow: 0 0  10px aliceblue;
+     font-family: "Noto Sans Thai", sans-serif;
+}
+body{
+    background-image: url('space-background1.png');
+}
+.containerb{
+    background-color: blue
+    ;
+}
+.questioncontainer{
+   
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    margin-bottom: 30%;
+}
+.question{
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 29%;
+    font-weight: 400;
+}
+.option{
+    text-align: center;
+    margin-top: 17%;
+}
+button{
+    margin-right: 5%;
+    width: 17vw;
+
+    
+    height: 7vh
+
+    ;
+    justify-content: center;
+    border-radius: 20%;
+    font-weight: 700;
+ 
+    background: transparent;
+}
+#q11,#q12,#q13,#q14{
+     width: 40%;
+     margin-top: 5%;
+
+}
+h4{
+    color: greenyellow;
+    font-size: 2em;
+    text-shadow: 0 0 20px;
+    box-shadow: 0 5px 5px 5px;
+}
+
+.option1{
+    box-shadow: 0 1px 5px 5px #ff274d;
+}
+.option2{
+    box-shadow: 0 1px 5px 5px green;
+}
+.option3{
+    box-shadow: 0 1px 5px 5px yellow;
+}
+
+.option4{
+    box-shadow: 0 1px 5px 5px orange;
+}

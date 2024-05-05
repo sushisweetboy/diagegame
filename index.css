@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.headerr{
+   position: relative;
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+   background: relative;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+ h2{
+    color: transparent;
+    font-weight: 900;
+    font-size: 7em;
+    top: 20%;
+    -webkit-text-stroke: 2px #95f3ff;
+    text-shadow: 12px 0px 0px #95f3ff;
+    
+    text-align: center;
+}
+
+
+
+body{
+    background-image: url('space-background1.png');
+}
+.intro{
+    position: relative;
+    width: 80%;
+    height: 50vh;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px 10px   #fff;
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 30%;
+    right: 20%;
+   
+}
+.goon{
+    width: 100vw;
+    height: 20vh;
+   
+    justify-content: center;
+     margin-bottom: 30%;
+}
+p{
+    color: #95f3ff;
+     text-align: center;
+     margin-top: 5%;
+     font-size: 1.18em;
+     font-family: "Sriracha", cursive;
+}
+a {
+    position: relative;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 2% 5%;
+    align-items: center;
+    top: 5%;
+    transition: 0.5s;
+    z-index: 1;
+   margin-left: 35%;
+    bottom: 80%;
+}
+
+a:hover {
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+    z-index: -1;
+}
+
+a span {
+    position: relative;
+    z-index: 2;
+}
+
+a i {
+    position: absolute;
+    inset: 0;
+    display: block;
+    z-index: 0;
+}
+
+a i::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 100%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background: #27282c;
+    border: 2px solid var(--clr);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+a:hover i::before {
+    left: 0%;
+    transform: translateX(-50%) rotate(45deg);
+    box-shadow: 40px 39px var(--clr);
+}
+
+a i::after {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 0;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background: #27282c;
+    border: 2px solid var(--clr);
+    transition: 0.5s;
+    z-index: 2;
+}
+
+a:hover i::after {
+    left: 100%;
+    transform: translateX(-50%) rotate(-45deg);
+    box-shadow: 40px 39px var(--clr);
+}
+span{
+      font-family: "Sriracha", cursive;;
+}

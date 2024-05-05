@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&family=Protest+Revolution&family=Sriracha&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        font-weight: 800;
+        color: #fff;
+        text-shadow: 5px 5px 15px  #fff;
+        font-family: "Sriracha", cursive;
+        font-size: 1.2em;
+        display: inline;
+    }
+    body{
+        background-color: black;
+    
+
+    }
+    a {
+    position: relative;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 4% 9%;
+    margin-right: 5%;
+    align-items: center;
+    bottom: -100px;
+    transition: 0.5s;
+    z-index: 1;
+    left: 45%;
+     justify-content: center;
+}
+
+a:hover {
+    letter-spacing: 0.25em;
+    background: transparent;
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+    z-index: -1;
+}
+
+a span {
+    position: relative;
+    z-index: 2;
+    font-size: 80%;
+    font-family: "Sriracha", cursive;
+}
+
+a i {
+    position: absolute;
+    inset: 0;
+    display: block;
+    z-index: 0;
+}
+
+a i::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 100%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background: #27282c;
+    border: 2px solid var(--clr);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+a:hover i::before {
+    left: 0%;
+    transform: translateX(-50%) rotate(45deg);
+    box-shadow: 40px 39px var(--clr);
+   background: transparent;
+}
+
+a i::after {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 0;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    
+    border: 2px solid var(--clr);
+    transition: 0.5s;
+    z-index: 2;
+}
+
+a:hover i::after {
+    left: 100%;
+    transform: translateX(-50%) rotate(-45deg);
+    box-shadow: 40px 39px var(--clr);
+}
+.holder{
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-right: 18%;
+
+}
+.header{
+   
+     width: 100vw;
+     height: 27vh;
+     justify-content: center;
+     position: relative;
+     text-align: center
+     ;
+   
+     
+     margin-top: 10%;
+}
+.excellent{
+    justify-content: center;
+    width: 100vw;
+    height: 30vh;
+    
+    font-style: italic;
+    text-transform: uppercase;
+   
+}
+.congrat{
+    text-align: center;
+   position: relative;
+   font-size: 3em;
+   color: #fef250;
+  text-shadow: 3px 0 10px  #fef250;
+}
+</style>
+<body>
+       <section class="excellent">
+        <h2 class="congrat">
+            excellent
+        </h2>
+  
+       </section>
+    
+       
+    <div class="header">
+        <h1>เราขอแสดงความยินดีด้วย คุณเป็นหนึ่งในไม่กี่คนที ผ่านบททดสอบแรกไปได้
+            แต่ช้าก่อน นี่เป็นเพียงจุดเริ่มต้นของเกมส์นี้เท่านั้น  ข้างหน้ามีความหฤโหดรอคุณอยู่อีกมาก แต่อย่าพึ่งถอดใจไป
+              เพราะรางวัลคุ้มค่ากับเกมส์นี้เน่นอน  คุณสามารถกดปุ่มไปต่อด้านล่าง เพื่อเล่นเกมส์นี้ต่อ
+               </h1>
+    </div>
+            
+
+        <div class="holder">
+            <a href="#" style="--clr:#76ff03"><span onclick="leadtolevel2();";>ไปต่อ</span><i></i></a>
+        </div>
+     <h4>    </h4>
+             
+</body>
+<script src="allfunction.js"></script>
+</html>
